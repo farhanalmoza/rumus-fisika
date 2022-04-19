@@ -6,60 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 
-	<!-- My Style -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Boxicons CDN Link -->
-	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- My Style -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="sidebar">
-		<div class="logo_content">
-			<div class="logo">
-				<i class='bx bxl-react'></i>
-				<div class="logo_name">Kelompok 2</div>
-			</div>
-			<i class='bx bx-menu' id="btn"></i>
-		</div>
-		<ul class="nav_list">
-			<li>
-				<a href="#">
-					<i class='bx bx-grid-alt'></i>
-					<span class="links_name">Dashboard</span>
-				</a>
-				<!-- <span class="tooltip">Dashboard</span> -->
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bx-grid-alt'></i>
-					<span class="links_name">Dashboard</span>
-				</a>
-				<!-- <span class="tooltip">Dashboard</span> -->
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bx-grid-alt'></i>
-					<span class="links_name">Dashboard</span>
-				</a>
-				<!-- <span class="tooltip">Dashboard</span> -->
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bx-grid-alt'></i>
-					<span class="links_name">Dashboard</span>
-				</a>
-				<!-- <span class="tooltip">Dashboard</span> -->
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bx-grid-alt'></i>
-					<span class="links_name">Dashboard</span>
-				</a>
-				<!-- <span class="tooltip">Dashboard</span> -->
-			</li>
-		</ul>
-	</div>
 
 	<!-- Bootstrap -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
