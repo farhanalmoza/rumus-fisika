@@ -1,3 +1,4 @@
+// Hasil untuk rumus percepatan
 $('#submit').click(function() {
     let kecepatan = $('#kecepatan').val();
     let waktu = $('#waktu').val();
