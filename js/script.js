@@ -21,3 +21,12 @@ $('#submitGaya').click(function() {
     let gaya = percepatan * massa;
     $('#hasilGaya').html(`Hasil gayanya adalah ${gaya} N`);
 })
+
+// Hasil untuk rumus energi potensial
+$('#submitEnergiPotensial').click(function() {
+    let massa = $('#massa').val();
+    let gravitasi = $('#gravitasi').val();
+    let ketinggian = $('#ketinggian').val();
+    let energiPotensial = massa * gravitasi * ketinggian;
+    $('#hasilEnergiPotensial').html(`Hasil energi potensialnya adalah ${energiPotensial} J`);
+})
