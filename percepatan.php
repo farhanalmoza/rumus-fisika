@@ -17,7 +17,7 @@
 			<div class="card mt-5">
 				<div class="card-header">Rumus Percepatan</div>
 				<div class="card-body">
-					<form id="formPercepatan">
+					<form>
 						<div class="mb-3">
 							<div class="row g-3 align-items-center">
 								<div class="col-md-2">
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 
-						<button type="button" id="submit" class="btn btn-primary">Hitung</button>
+						<button type="button" id="submitPercepatan" class="btn btn-primary">Hitung</button>
 					</form>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 			<div class="card mt-3">
 				<div class="card-header">Hasil Perhitungan Percepatan</div>
 				<div class="card-body">
-					<h5 class="card-title" id="hasil"></h5>
+					<h5 class="card-title" id="hasilPercepatan"></h5>
 				</div>
 			</div>
 			<!-- End Card Hasil -->
