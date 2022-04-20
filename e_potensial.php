@@ -72,7 +72,7 @@
 
 			<!-- Card Hasil -->
 			<div class="card mt-3">
-				<div class="card-header">Hasil Perhitungan Percepatan</div>
+				<div class="card-header">Hasil Perhitungan Energi Potensial</div>
 				<div class="card-body">
 					<h5 class="card-title" id="hasilEnergiPotensial"></h5>
 				</div>

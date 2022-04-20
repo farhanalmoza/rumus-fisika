@@ -8,48 +8,48 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Gaya | Kelompok 2</title>
+    <title>Panjang Gelombang | Kelompok 2</title>
   </head>
   <body>
 		<div class="container">	
 
 			<!-- Card Form Rumus -->
 			<div class="card mt-5">
-				<div class="card-header">Rumus Gaya</div>
+				<div class="card-header">Rumus Panjang Gelombang</div>
 				<div class="card-body">
 					<form>
 						<div class="mb-3">
 							<div class="row g-3 align-items-center">
-								<div class="col-md-2">
-									<label for="massa" class="col-form-label">Massa Benda</label>
+								<div class="col-md-3">
+									<label for="frekuensi" class="col-form-label">Frekuensi Gelombang</label>
 								</div>
 								<div class="col-md-6">
-									<input type="number" id="massa" class="form-control" aria-describedby="massanHelpInline">
+									<input type="number" id="frekuensi" class="form-control" aria-describedby="frekuensiHelpInline">
 								</div>
 								<div class="col-md-auto">
-									<span id="massanHelpInline" class="form-text">
-										dalam satuan kilogram (kg)
+									<span id="frekuensiHelpInline" class="form-text">
+										(Hz)
 									</span>
 								</div>
 							</div>
 						</div>
 						<div class="mb-3">
 							<div class="row g-3 align-items-center">
-								<div class="col-md-2">
-									<label for="percepatan" class="col-form-label">Percepatan</label>
+								<div class="col-md-3">
+									<label for="cepatRambatGelombang" class="col-form-label">Cepat Rambat Gelombang</label>
 								</div>
 								<div class="col-md-6">
-									<input type="number" id="percepatan" class="form-control" aria-describedby="percepatanHelpInline">
+									<input type="number" id="cepatRambatGelombang" class="form-control" aria-describedby="cepatRambatGelombangHelpInline">
 								</div>
 								<div class="col-md-auto">
-									<span id="percepatanHelpInline" class="form-text">
-										(m/s^2)
+									<span id="cepatRambatGelombangHelpInline" class="form-text">
+										(m/s)
 									</span>
 								</div>
 							</div>
 						</div>
 
-						<button type="button" id="submitGaya" class="btn btn-primary">Hitung</button>
+						<button type="button" id="submitPanjangGelombang" class="btn btn-primary">Hitung</button>
 					</form>
 				</div>
 			</div>
@@ -57,9 +57,9 @@
 
 			<!-- Card Hasil -->
 			<div class="card mt-3">
-				<div class="card-header">Hasil Perhitungan Gaya</div>
+				<div class="card-header">Hasil Perhitungan Panjang Gelombang</div>
 				<div class="card-body">
-					<h5 class="card-title" id="hasilGaya"></h5>
+					<h5 class="card-title" id="hasilPanjangGelombang"></h5>
 				</div>
 			</div>
 			<!-- End Card Hasil -->

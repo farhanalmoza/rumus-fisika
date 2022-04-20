@@ -30,3 +30,11 @@ $('#submitEnergiPotensial').click(function() {
     let energiPotensial = massa * gravitasi * ketinggian;
     $('#hasilEnergiPotensial').html(`Hasil energi potensialnya adalah ${energiPotensial} J`);
 })
+
+// Hasil untuk rumus panjang gelombang
+$('#submitPanjangGelombang').click(function() {
+    let frekuensi = $('#frekuensi').val();
+    let cepatRambatGelombang = $('#cepatRambatGelombang').val();
+    let panjangGelombang = cepatRambatGelombang / frekuensi;
+    $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
+})

@@ -57,7 +57,7 @@
 
 			<!-- Card Hasil -->
 			<div class="card mt-3">
-				<div class="card-header">Hasil Perhitungan Percepatan</div>
+				<div class="card-header">Hasil Perhitungan Massa Jenis</div>
 				<div class="card-body">
 					<h5 class="card-title" id="hasilMassaJenis"></h5>
 				</div>
