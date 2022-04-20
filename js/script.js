@@ -13,3 +13,11 @@ $('#submitMassaJenis').click(function() {
     let massaJenis = massa / volume;
     $('#hasilMassaJenis').html(`Hasil massa jenisnya adalah ${massaJenis} kg/m^3`);
 })
+
+// Hasil untuk rumus gaya
+$('#submitGaya').click(function() {
+    let massa = $('#massa').val();
+    let percepatan = $('#percepatan').val();
+    let gaya = percepatan * massa;
+    $('#hasilGaya').html(`Hasil gayanya adalah ${gaya} N`);
+})
