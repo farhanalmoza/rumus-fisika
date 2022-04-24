@@ -56,6 +56,7 @@ $('#submitPanjangGelombang').click(function() {
     $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
 })
 
+<<<<<<< HEAD
 // Hasil untuk rumus cepat rambat gelombang
 $('#submitcepatrambatgelombang').click(function() {
     let jarak = $('#jarak').val();
@@ -63,3 +64,28 @@ $('#submitcepatrambatgelombang').click(function() {
     let cepatrambatgelombang = jarak / waktu;
     $('#hasilcepatrambatgelombang').html(`Hasil cepat rambat gelombang adalah ${cepatrambatgelombang} m/s`);
 })
+=======
+// Hasil untuk rumus energi kinetik
+$('#submitEnergiKinetik').click(function() {
+    let massa = $('#massa').val();
+    let kecepatan = $('#kecepatan').val();
+    let energiKinetik = 0.5 * massa * kecepatan * kecepatan;
+    $('#hasilEnergiKinetik').html(`Hasil energi kinetiknya adalah ${energiKinetik} J`);
+})
+
+// Hasil untuk rumus rangkaian listrik ohm
+$('#submitrangkaianlistrikohm').click(function() {
+    let kuatarus = $('#kuatarus').val();
+    let hambatan = $('#hambatan').val();
+    let rangkaianlistrikohm  = kuatarus * hambatan;
+    $('#hasilrangkaianlistrikohm').html(`Hasil rangkaian listriknya adalah ${rangkaianlistrikohm} V`);
+})
+
+// Hasil untuk rumus frekuensi
+$('#submitFrekuensi').click(function() {
+    let getaran = $('#getaran').val();
+    let waktu = $('#waktu').val();
+    let gaya = getaran / waktu;
+    $('#hasilFrekuensi').html(`Hasil frekuensinya adalah ${frekuensi} Hz`);
+})
+>>>>>>> a5c3210d2619823b9c2dccf5aacbc7b93383a689
