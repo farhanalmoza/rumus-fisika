@@ -87,7 +87,7 @@ $('#submitFrekuensi2').click(function() {
     let frekuensi2 = kecepatan / panjang;
     $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
 })
-<<<<<<< HEAD
+
 // Hasil untuk rumus cepat rambat gelombang
 $('#submitcepatrambatgelombang').click(function() {
     let jarak = $('#jarak').val();
@@ -113,5 +113,3 @@ $('#submithambatanpenggantipararel').click(function() {
     let hambatanpenggantipararel = 1/R1+1/R2+1/R3;
     $('#hasilhambatanpenggantipararel').html(`Hasil hambatan pengganti pararel adalah ${hambatanpenggantipararel} ohm`);
 })
-=======
->>>>>>> 6320c664ed4162f0281b5de3c67cfbbecd1f26ff
