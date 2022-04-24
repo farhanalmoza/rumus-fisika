@@ -116,7 +116,15 @@ $('#submitFrekuensi2').click(function() {
     let satu = $('#satu').val();
     let periode = $('#periode').val();
     let frekuensi3 = 1 / periode;
-    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi3} Hz`);
+    $('#hasilFrekuensi3').html(`Hasil frekuensinya adalah ${frekuensi3} Hz`);
+})
+
+// Hasil untuk rumus daya
+$('#submitFrekuensi').click(function() {
+    let energi = $('#energi').val();
+    let waktu = $('#waktu').val();
+    let  daya = energi / waktu;
+    $('#hasilDaya').html(`Hasil frekuensinya adalah ${daya} Watt`);
 })
 
 // Hasil untuk rumus cepat rambat gelombang
