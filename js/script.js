@@ -15,6 +15,7 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 });
 
+// FARKHAN
 // Hasil untuk rumus percepatan
 $('#submitPercepatan').click(function() {
     let kecepatan = $('#kecepatan').val();
@@ -56,6 +57,7 @@ $('#submitPanjangGelombang').click(function() {
     $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
 })
 
+// FARIS
 // Hasil untuk rumus energi kinetik
 $('#submitEnergiKinetik').click(function() {
     let massa = $('#massa').val();
@@ -95,6 +97,7 @@ $('#submitPeriode3').click(function() {
     $('#hasilPeriode3').html(`Hasil Periode3 adalah ${Periode3} S`);
 })
 
+// RANDY
 // Hasil untuk rumus frekuensi
 $('#submitFrekuensi').click(function() {
     let getaran = $('#getaran').val();
@@ -135,6 +138,7 @@ $('#submitUsaha').click(function() {
     $('#hasilUsaha').html(`Hasil usahanya adalah ${usaha} J`);
 })
 
+// RIZAL
 // Hasil untuk rumus cepat rambat gelombang
 $('#submitcepatrambatgelombang').click(function() {
     let jarak = $('#jarak').val();
@@ -161,7 +165,6 @@ $('#submithambatanpenggantipararel').click(function() {
     $('#hasilhambatanpenggantipararel').html(`Hasil hambatan pengganti pararel adalah ${hambatanpenggantipararel} ohm`);
 
 })
-
 
 // Hasil untuk rumus kedalaman laut
 $('#kedalamanlaut').click(function() {

@@ -17,11 +17,26 @@
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">Rumus Fisika</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./e_potensial.php">Energi Potensial</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./e_potensial.php">Energi Potensial</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./gaya.php">Gaya</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3 active" href="./massa_jenis.php">Massa Jenis</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./panjang_gelombang.php">Panjang Gelombang</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./percepatan.php">Percepatan</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./energi_kinetik.php">Energi Kinetik</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./rangkaian_listrik_ohm.php">RL Ohm</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./periode1.php">Periode 1</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./periode2.php">Periode 2</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./periode3.php">Periode 3</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./frekuensi_1.php">Frekuensi 1</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./frekuensi_2.php">Frekuensi 2</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./frekuensi_3.php">Frekuensi 3</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./daya.php">Daya</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./usaha.php">Usaha</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./kedalamanlaut.php">Kedalaman Laut</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./jarak.php">Jarak Tempuh</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./hambatanpenggantiseri.php">Hambatan Seri</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./hambatanpenggantipararel.php">Hambatan Paralel</a>
+					<a class="list-group-item list-group-item-action list-group-item-light p-3" href="./cepatrambatgelombang.php">Cepat Rambat Gelombang</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
