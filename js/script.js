@@ -72,6 +72,29 @@ $('#submitrangkaianlistrikohm').click(function() {
     $('#hasilrangkaianlistrikohm').html(`Hasil rangkaian listriknya adalah ${rangkaianlistrikohm} V`);
 })
 
+// Hasil untuk rumus periode1
+$('#submitPeriode1').click(function() {
+    let waktu = $('#waktu').val();
+    let getaran = $('#getaran').val();
+    let Periode1  = waktu / getaran;
+    $('#hasilPeriode1').html(`Hasil Periode1 adalah ${Periode1} S`);
+})
+
+// Hasil untuk rumus periode2
+$('#submitPeriode1').click(function() {
+    let frekuensi = $('#getaran').val();
+    let Periode2  = 1 / frekuensi;
+    $('#hasilPeriode2').html(`Hasil Periode2 adalah ${Periode2} S`);
+})
+
+// Hasil untuk rumus periode3
+$('#submitPeriode3').click(function() {
+    let kecepatangelombang = $('#kecepatangelombang').val();
+    let panjanggelombang = $('#panjanggelombang').val();
+    let Periode3  = kecepatangelombang * panjanggelombang;
+    $('#hasilPeriode3').html(`Hasil Periode3 adalah ${Periode3} S`);
+})
+
 // Hasil untuk rumus frekuensi
 $('#submitFrekuensi').click(function() {
     let getaran = $('#getaran').val();
@@ -87,7 +110,23 @@ $('#submitFrekuensi2').click(function() {
     let frekuensi2 = kecepatan / panjang;
     $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
 })
-<<<<<<< HEAD
+
+// Hasil untuk rumus frekuensi 3
+$('#submitFrekuensi2').click(function() {
+    let satu = $('#satu').val();
+    let periode = $('#periode').val();
+    let frekuensi3 = 1 / periode;
+    $('#hasilFrekuensi3').html(`Hasil frekuensinya adalah ${frekuensi3} Hz`);
+})
+
+// Hasil untuk rumus daya
+$('#submitFrekuensi').click(function() {
+    let energi = $('#energi').val();
+    let waktu = $('#waktu').val();
+    let  daya = energi / waktu;
+    $('#hasilDaya').html(`Hasil frekuensinya adalah ${daya} Watt`);
+})
+
 // Hasil untuk rumus cepat rambat gelombang
 $('#submitcepatrambatgelombang').click(function() {
     let jarak = $('#jarak').val();
@@ -112,9 +151,9 @@ $('#submithambatanpenggantipararel').click(function() {
     let R3 = $('#R3').val();
     let hambatanpenggantipararel = 1/R1+1/R2+1/R3;
     $('#hasilhambatanpenggantipararel').html(`Hasil hambatan pengganti pararel adalah ${hambatanpenggantipararel} ohm`);
+
 })
-=======
->>>>>>> 6320c664ed4162f0281b5de3c67cfbbecd1f26ff
+
 
 // Hasil untuk rumus kedalaman laut
 $('#kedalamanlaut').click(function() {
@@ -131,3 +170,5 @@ $('#jarak').click(function() {
     let jarak = kecepatan * waktu;
     $('#jarak').html(`Hasil jarak yang ditempuh adalah ${jarak} km`);
 })
+
+
