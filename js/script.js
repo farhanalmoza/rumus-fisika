@@ -88,6 +88,14 @@ $('#submitFrekuensi2').click(function() {
     $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
 })
 
+// Hasil untuk rumus frekuensi 3
+$('#submitFrekuensi2').click(function() {
+    let satu = $('#satu').val();
+    let periode = $('#periode').val();
+    let frekuensi3 = 1 / periode;
+    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi3} Hz`);
+})
+
 // Hasil untuk rumus cepat rambat gelombang
 $('#submitcepatrambatgelombang').click(function() {
     let jarak = $('#jarak').val();
