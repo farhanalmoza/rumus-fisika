@@ -94,3 +94,54 @@ $('#submitPeriode3').click(function() {
     let Periode3  = kecepatangelombang * panjanggelombang;
     $('#hasilPeriode3').html(`Hasil Periode3 adalah ${Periode3} S`);
 })
+
+// Hasil untuk rumus frekuensi
+$('#submitFrekuensi').click(function() {
+    let getaran = $('#getaran').val();
+    let waktu = $('#waktu').val();
+    let frekuensi = getaran / waktu;
+    $('#hasilFrekuensi').html(`Hasil frekuensinya adalah ${frekuensi} Hz`);
+})
+
+// Hasil untuk rumus frekuensi 2
+$('#submitFrekuensi2').click(function() {
+    let kecepatan = $('#kecepatan').val();
+    let panjang = $('#panjang').val();
+    let frekuensi2 = kecepatan / panjang;
+    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
+})
+
+// Hasil untuk rumus frekuensi 3
+$('#submitFrekuensi2').click(function() {
+    let satu = $('#satu').val();
+    let periode = $('#periode').val();
+    let frekuensi3 = 1 / periode;
+    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi3} Hz`);
+})
+
+// Hasil untuk rumus cepat rambat gelombang
+$('#submitcepatrambatgelombang').click(function() {
+    let jarak = $('#jarak').val();
+    let waktu = $('#waktu').val();
+    let cepatrambatgelombang = jarak / waktu;
+    $('#hasilcepatrambatgelombang').html(`Hasil cepat rambat gelombang adalah ${cepatrambatgelombang} m/s`);
+})
+
+// Hasil untuk rumus hambatan pengganti seri
+$('#submithambatanpenggantiseri').click(function() {
+    let R1 = $('#R1').val();
+    let R2 = $('#R2').val();
+    let R3 = $('#R3').val();
+    let hambatanpenggantiseri = R1+R2+R3;
+    $('#hasilhambatanpenggantiseri').html(`Hasil hambatan pengganti seri adalah ${hambatanpenggantiseri} ohm`);
+})
+
+// Hasil untuk rumus hambatan pengganti pararel
+$('#submithambatanpenggantipararel').click(function() {
+    let R1 = $('#R1').val();
+    let R2 = $('#R2').val();
+    let R3 = $('#R3').val();
+    let hambatanpenggantipararel = 1/R1+1/R2+1/R3;
+    $('#hasilhambatanpenggantipararel').html(`Hasil hambatan pengganti pararel adalah ${hambatanpenggantipararel} ohm`);
+
+})
