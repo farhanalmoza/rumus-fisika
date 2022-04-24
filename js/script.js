@@ -71,3 +71,11 @@ $('#submitrangkaianlistrikohm').click(function() {
     let rangkaianlistrikohm  = kuatarus * hambatan;
     $('#hasilrangkaianlistrikohm').html(`Hasil rangkaian listriknya adalah ${rangkaianlistrikohm} V`);
 })
+
+// Hasil untuk rumus frekuensi
+$('#submitFrekuensi').click(function() {
+    let getaran = $('#getaran').val();
+    let waktu = $('#waktu').val();
+    let gaya = getaran / waktu;
+    $('#hasilFrekuensi').html(`Hasil frekuensinya adalah ${frekuensi} Hz`);
+})
