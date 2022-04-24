@@ -115,3 +115,19 @@ $('#submithambatanpenggantipararel').click(function() {
 })
 =======
 >>>>>>> 6320c664ed4162f0281b5de3c67cfbbecd1f26ff
+
+// Hasil untuk rumus kedalaman laut
+$('#kedalamanlaut').click(function() {
+    let cepatrambatgelombang = $('#cepatrambatgelombang').val();
+    let waktu = $('#waktu').val();
+    let kedalamanlaut = cepatrambatgelombang * waktu/2;
+    $('#kedalamanlaut').html(`Hasil kedalamanlaut adalah ${kedalamanlaut} m`);
+})
+
+// Hasil untuk rumus jarak
+$('#jarak').click(function() {
+    let kecepatan = $('#kecepatan').val();
+    let waktu = $('#waktu').val();
+    let jarak = kecepatan * waktu;
+    $('#jarak').html(`Hasil jarak yang ditempuh adalah ${jarak} km`);
+})
