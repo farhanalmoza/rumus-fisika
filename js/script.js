@@ -120,11 +120,19 @@ $('#submitFrekuensi2').click(function() {
 })
 
 // Hasil untuk rumus daya
-$('#submitFrekuensi').click(function() {
+$('#submitDaya').click(function() {
     let energi = $('#energi').val();
     let waktu = $('#waktu').val();
-    let  daya = energi / waktu;
-    $('#hasilDaya').html(`Hasil frekuensinya adalah ${daya} Watt`);
+    let daya = energi / waktu;
+    $('#hasilDaya').html(`Hasil dayanya adalah ${daya} Watt`);
+})
+
+// Hasil untuk rumus usaha
+$('#submitUsaha').click(function() {
+    let gaya = $('#gaya').val();
+    let perpindahan = $('#perpindahan').val();
+    let  usaha = gaya * perpindahan;
+    $('#hasilUsaha').html(`Hasil usahanya adalah ${usaha} J`);
 })
 
 // Hasil untuk rumus cepat rambat gelombang
