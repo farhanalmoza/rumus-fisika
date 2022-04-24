@@ -55,3 +55,11 @@ $('#submitPanjangGelombang').click(function() {
     let panjangGelombang = cepatRambatGelombang / frekuensi;
     $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
 })
+
+// Hasil untuk rumus cepat rambat gelombang
+$('#submitcepatrambatgelombang').click(function() {
+    let jarak = $('#jarak').val();
+    let waktu = $('#waktu').val();
+    let cepatrambatgelombang = jarak / waktu;
+    $('#hasilcepatrambatgelombang').html(`Hasil cepat rambat gelombang adalah ${cepatrambatgelombang} m/s`);
+})
