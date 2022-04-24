@@ -56,15 +56,6 @@ $('#submitPanjangGelombang').click(function() {
     $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
 })
 
-<<<<<<< HEAD
-// Hasil untuk rumus cepat rambat gelombang
-$('#submitcepatrambatgelombang').click(function() {
-    let jarak = $('#jarak').val();
-    let waktu = $('#waktu').val();
-    let cepatrambatgelombang = jarak / waktu;
-    $('#hasilcepatrambatgelombang').html(`Hasil cepat rambat gelombang adalah ${cepatrambatgelombang} m/s`);
-})
-=======
 // Hasil untuk rumus energi kinetik
 $('#submitEnergiKinetik').click(function() {
     let massa = $('#massa').val();
@@ -85,7 +76,39 @@ $('#submitrangkaianlistrikohm').click(function() {
 $('#submitFrekuensi').click(function() {
     let getaran = $('#getaran').val();
     let waktu = $('#waktu').val();
-    let gaya = getaran / waktu;
+    let frekuensi = getaran / waktu;
     $('#hasilFrekuensi').html(`Hasil frekuensinya adalah ${frekuensi} Hz`);
 })
->>>>>>> a5c3210d2619823b9c2dccf5aacbc7b93383a689
+
+// Hasil untuk rumus frekuensi 2
+$('#submitFrekuensi2').click(function() {
+    let kecepatan = $('#kecepatan').val();
+    let panjang = $('#panjang').val();
+    let frekuensi2 = kecepatan / panjang;
+    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
+})
+// Hasil untuk rumus cepat rambat gelombang
+$('#submitcepatrambatgelombang').click(function() {
+    let jarak = $('#jarak').val();
+    let waktu = $('#waktu').val();
+    let cepatrambatgelombang = jarak / waktu;
+    $('#hasilcepatrambatgelombang').html(`Hasil cepat rambat gelombang adalah ${cepatrambatgelombang} m/s`);
+})
+
+// Hasil untuk rumus hambatan pengganti seri
+$('#submithambatanpenggantiseri').click(function() {
+    let R1 = $('#R1').val();
+    let R2 = $('#R2').val();
+    let R3 = $('#R3').val();
+    let hambatanpenggantiseri = R1+R2+R3;
+    $('#hasilhambatanpenggantiseri').html(`Hasil hambatan pengganti seri adalah ${hambatanpenggantiseri} ohm`);
+})
+
+// Hasil untuk rumus hambatan pengganti pararel
+$('#submithambatanpenggantipararel').click(function() {
+    let R1 = $('#R1').val();
+    let R2 = $('#R2').val();
+    let R3 = $('#R3').val();
+    let hambatanpenggantipararel = 1/R1+1/R2+1/R3;
+    $('#hasilhambatanpenggantipararel').html(`Hasil hambatan pengganti pararel adalah ${hambatanpenggantipararel} ohm`);
+})
