@@ -76,6 +76,14 @@ $('#submitrangkaianlistrikohm').click(function() {
 $('#submitFrekuensi').click(function() {
     let getaran = $('#getaran').val();
     let waktu = $('#waktu').val();
-    let gaya = getaran / waktu;
+    let frekuensi = getaran / waktu;
     $('#hasilFrekuensi').html(`Hasil frekuensinya adalah ${frekuensi} Hz`);
+})
+
+// Hasil untuk rumus frekuensi 2
+$('#submitFrekuensi2').click(function() {
+    let kecepatan = $('#kecepatan').val();
+    let panjang = $('#panjang').val();
+    let frekuensi2 = kecepatan / panjang;
+    $('#hasilFrekuensi2').html(`Hasil frekuensinya adalah ${frekuensi2} Hz`);
 })
