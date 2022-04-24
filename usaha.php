@@ -54,7 +54,7 @@
 										</div>
 										<div class="col-md-auto">
 											<span id="gayaHelpInline" class="form-text">
-												(F)
+												(N)
 											</span>
 										</div>
 									</div>
@@ -69,7 +69,7 @@
 										</div>
 										<div class="col-md-auto">
 											<span id="perpindahanHelpInline" class="form-text">
-												(s)
+												(m)
 											</span>
 										</div>
 									</div>
