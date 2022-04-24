@@ -55,3 +55,19 @@ $('#submitPanjangGelombang').click(function() {
     let panjangGelombang = cepatRambatGelombang / frekuensi;
     $('#hasilPanjangGelombang').html(`Hasil panjang gelombangnya adalah ${panjangGelombang} m`);
 })
+
+// Hasil untuk rumus energi kinetik
+$('#submitEnergiKinetik').click(function() {
+    let massa = $('#massa').val();
+    let kecepatan = $('#kecepatan').val();
+    let energiKinetik = 0.5 * massa * kecepatan * kecepatan;
+    $('#hasilEnergiKinetik').html(`Hasil energi kinetiknya adalah ${energiKinetik} J`);
+})
+
+// Hasil untuk rumus rangkaian listrik ohm
+$('#submitrangkaianlistrikohm').click(function() {
+    let kuatarus = $('#kuatarus').val();
+    let hambatan = $('#hambatan').val();
+    let rangkaianlistrikohm  = kuatarus * hambatan;
+    $('#hasilrangkaianlistrikohm').html(`Hasil rangkaian listriknya adalah ${rangkaianlistrikohm} V`);
+})
