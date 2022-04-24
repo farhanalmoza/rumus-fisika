@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Energi Potensial | Kelompok 2</title>
+        <title>Nama Rumus | Kelompok 2</title> // diganti nama rumus
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -16,7 +16,7 @@
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">Rumus Fisika</div>
-                <div class="list-group list-group-flush">
+                <div class="list-group list-group-flush"> // tambahkan menu rumus pada sidebar
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./e_potensial.php">Energi Potensial</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./gaya.php">Gaya</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./massa_jenis.php">Massa Jenis</a>
@@ -39,7 +39,58 @@
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <!-- Konten -->
+                    <!-- Card Form Rumus -->
+					<div class="card mt-4">
+						<div class="card-header">Rumus Gaya</div>
+						<div class="card-body">
+							<form>
+                                // kolom 1
+								<div class="mb-3">
+									<div class="row g-3 align-items-center">
+										<div class="col-md-2">
+											<label for="massa" class="col-form-label">Massa Benda</label>
+										</div>
+										<div class="col-md-6">
+											<input type="number" id="massa" class="form-control" aria-describedby="massaHelpInline">
+										</div>
+										<div class="col-md-auto">
+											<span id="massaHelpInline" class="form-text">
+												dalam satuan kilogram (kg)
+											</span>
+										</div>
+									</div>
+								</div>
+                                // kolom
+								<div class="mb-3">
+									<div class="row g-3 align-items-center">
+										<div class="col-md-2">
+											<label for="percepatan" class="col-form-label">Percepatan</label>
+										</div>
+										<div class="col-md-6">
+											<input type="number" id="percepatan" class="form-control" aria-describedby="percepatanHelpInline">
+										</div>
+										<div class="col-md-auto">
+											<span id="percepatanHelpInline" class="form-text">
+												(m/s^2)
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<button type="button" id="submitNamaRumus" class="btn btn-primary">Hitung</button> // ganti id button
+							</form>
+						</div>
+					</div>
+					<!-- End Card Form Rumus -->
+
+					<!-- Card Hasil -->
+					<div class="card mt-3">
+						<div class="card-header">Hasil Perhitungan Nama Rumus</div> // judul card
+						<div class="card-body">
+							<h5 class="card-title" id="hasilGaya"></h5> // id h5 diganti hasilNamaRumus
+						</div>
+					</div>
+					<!-- End Card Hasil -->
                 </div>
             </div>
         </div>
